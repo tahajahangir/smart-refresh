@@ -14,6 +14,6 @@
 			tooltiptext="&smartrefresh.smartRefresh;"/>
 	</toolbarpalette>
 	<keyset>
-		<key id="smart-refresh-button" modifiers="shift" key="VK_F5" oncommand="smartrefresh.smartRefresh()"/>
+		<key id="smart-refresh-button" modifiers="shift" keycode="VK_F5" oncommand="smartrefresh.smartRefresh()"/>
 	</keyset>
 </overlay>
