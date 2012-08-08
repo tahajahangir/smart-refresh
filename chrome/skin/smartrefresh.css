@@ -1,0 +1,6 @@
+#smartrefreshIcon {
+	list-style-image: url("chrome://smartrefresh/skin/gtk-refresh.png");
+}
+toolbar[iconsize="small"] #smartrefreshIcon {
+	list-style-image: url("chrome://smartrefresh/skin/gtk-refresh-16.png");
+}

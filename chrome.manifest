@@ -1,0 +1,5 @@
+overlay	chrome://browser/content/browser.xul	chrome://smartrefresh/content/smartrefresh.xul
+overlay	chrome://global/content/customizeToolbar.xul	chrome://smartrefresh/content/smartrefresh.xul
+content	smartrefresh	chrome/content/
+skin	smartrefresh	classic/1.0	chrome/skin/
+locale	smartrefresh	en-GB	chrome/locale/en-GB/

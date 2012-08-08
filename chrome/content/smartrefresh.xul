@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="chrome://global/skin/"?>
+<?xml-stylesheet type="text/css" href="chrome://smartrefresh/skin/smartrefresh.css"?>
+<!DOCTYPE overlay SYSTEM "chrome://smartrefresh/locale/smartrefresh.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://smartrefresh/content/smartrefresh.js" />
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton
+			id="smartrefreshIcon"
+			class="toolbarbutton-1 chromeclass-toolbar-additional"
+			oncommand="smartrefresh.smartRefresh()"
+			label="&smartrefresh.smartRefresh;"
+			tooltiptext="&smartrefresh.smartRefresh;"/>
+	</toolbarpalette>
+	<keyset>
+		<key id="smart-refresh-button" modifiers="shift" key="VK_F5" oncommand="smartrefresh.smartRefresh()"/>
+	</keyset>
+</overlay>
